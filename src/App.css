@@ -1,0 +1,22 @@
+.box{
+	width:7em;
+	height:6em;
+	clip-path: url(#svgPath);
+	position: relative;
+}
+
+.box .fill{
+	position: absolute;
+	width:100%;
+	height: 0;
+	background-color:salmon;
+	left:0;
+	bottom:0;
+	transition:all ease 1s;
+}
+
+.box.full .fill{
+
+	height: 100%;
+
+}
